@@ -83,18 +83,18 @@
 | :---: | :---: |
 | (a) OBM Model | (b) ROAM module |
 
-We first proposed a novol interactive model for footprint extraction, and designed a series of Distance NMS algorithms which tailored for Building Footprint Extraction (BFE) problem. We also designed new metrics to measure interactive BFE model.  
+We first proposed a novel interactive model for footprint extraction and designed a series of Distance NMS algorithms tailored for the Building Footprint Extraction (BFE) problem. We also designed new metrics to measure the interactive BFE model.  
 
-Based on our accurate extraction of roof and root-to-footprint offset. We can rebuild buildings' relative height maps. 
+Based on our accurate extraction of the roof and root-to-footprint offset. We can rebuild buildings' relative height maps. 
 
-**(a)** illustrates our  structure which inherits from Segment Anything Model (SAM). 
+**(a)** illustrates our  structure which inherits from the Segment Anything Model (SAM). 
 
-**(b)** gives out the structure of our core module, Reference Offset Adaptive Module (ROAM). During inference, based on results of base offset head, each building will classified by their length, and then roaming to adaptive head. The final result is determined by Base head and adaptive head.   
+**(b)** gives out the structure of our core module, Reference Offset Adaptive Module (ROAM). During inference, based on the results of the base offset head, each building will classified by its length and then roam to the adaptive head. The final result is determined by the Basehead and adaptive head.   
 
 
 Our model reaches new SOTA:
 * A clear drop of offset error by 16.99%, increase roof boundary iou by 13.15%, on open dataset BONAI. 
-* Without extra training, we tested all models on a newly annotated dataset for generalization, improve 20.29% in vector, improve 76.36% in offset angle. 
+* Without extra training, we tested all models on a newly annotated dataset for generalization, improving 20.29% in vector and 76.36% in offset angle. 
 * DNMS series can bring extra gain in all situations. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -180,21 +180,21 @@ python tools/visual_instance_seg.py
 
 <!-- ROADMAP -->
 ## Workflow and Results
-Our model  simulates the process of how a human annotates footprint. 
+Our model  simulates the process of how a human annotates a footprint. 
 
 ### 1. At the **`first`** stage, we input an image with some prompts to imply buildings' rough location, using box prompts as an example:
 <div align=center>
   <img src="images/inputim.png" >
 </div>
 
-### 2. **`Then`** our OBM will give out roof segmentation and a roof-to-footprint offset for each prompts. 
+### 2. **`Then`** Our OBM will give out roof segmentation and a roof-to-footprint offset for each prompt. 
 <div align=center>
   <img src="images/model_out.png">
 </div>
 
 ### 3. **`Finally`**, we drag the roof to its footprint via the offset. 
 
-* We provide two kinds of operation, one is directly get **footprints**, another is get the **relative height maps**. 
+* We provide two kinds of operation: one is to directly get **footprints**, and the other is to get the **relative height maps**. 
 <div align=center>
   <img src="images/boundary.png" width="200" height="200"> <img src="images/HeightMap.png" width="200" height="200">
 </div>
@@ -216,6 +216,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+Offset tokens are hard to train; they are very sensitive to the settings. 
+If you have any problems training the offset tokens, please contact me by likai211#mails.ucas.ac.cn or kaili37-c#my.cityu.edu.hk. 
+I think my experience of failure in training will help you train your model.
+You can also contact me for any building-related problem or collaboration. 
 
 
 
