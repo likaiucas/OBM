@@ -221,7 +221,19 @@ If you have any problems training the offset tokens, please contact me by likai2
 I think my experience of failure in training will help you train your model.
 You can also contact me for any building-related problem or collaboration. 
 
-
+## Cite
+```
+@ARTICLE{obm,
+  author={Li, Kai and Deng, Yupeng and Kong, Yunlong and Liu, Diyou and Chen, Jingbo and Meng, Yu and Ma, Junxian and Wang, Chenhao},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Prompt-Driven Building Footprint Extraction in Aerial Images with Offset-Building Model}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Buildings;Prediction algorithms;Production;Data models;Data mining;Remote sensing;Instance segmentation;Feature extraction;Training;Three-dimensional displays;Building footprint extraction;Roof segmentation;Roof-to-footprint offset extraction;Segment Anything Model (SAM);Non-Maximum Suppression(NMS)},
+  doi={10.1109/TGRS.2024.3487652}}
+```
 
 
 
