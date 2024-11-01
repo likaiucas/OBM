@@ -129,9 +129,14 @@ The code is built on the old version of mmdetection, and trained with a server t
 Our runnable environments:
  `pytorch 1.7.0, CUDA 11.1`
 
+
+### Dataset
+Downloads training images and test images from [BONAI]. We newly added building segementation label in our newly launched dataset which are avaliable with [Huizhou] together. 
+
 ### Installation
 
 NOTE: Please follow the installation of [BONAI] and the early edition of [MMdetection].
+
 
 
 <!-- USAGE EXAMPLES -->
@@ -221,7 +226,9 @@ If you have any problems training the offset tokens, please contact me by likai2
 I think my experience of failure in training will help you train your model.
 You can also contact me for any building-related problem or collaboration. 
 
-## Cite
+
+
+## Citing
 ```
 @ARTICLE{obm,
   author={Li, Kai and Deng, Yupeng and Kong, Yunlong and Liu, Diyou and Chen, Jingbo and Meng, Yu and Ma, Junxian and Wang, Chenhao},
@@ -268,6 +275,8 @@ You can also contact me for any building-related problem or collaboration.
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+[Huizhou]: https://portland-my.sharepoint.com/:f:/g/personal/kaili37-c_my_cityu_edu_hk/Ep2EnO01ZghPuebKASl5h60BUjbBvrbiSHKoSiwfIBYBNg?e=7hdlzQ
 
 [OBMweight]: https://1drv.ms/u/c/4714078bb90d0216/EbVLDOlRwlZHr5h60nC3HuoBk1QrRFc6QqY_oXPCz-_3nA?e=Xbe1Qc
 [pytorch.org]: https://pytorch.org
