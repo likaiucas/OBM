@@ -3,6 +3,7 @@
 We have two contribution: 
 
 1) we first introduced the concept of "Offset Token" and its decode-encode methods.
+   
 2) we newly discover a common pattern of predicting offsets. 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
