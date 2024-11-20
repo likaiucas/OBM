@@ -1,10 +1,10 @@
 # TGRS preprint paper
 
-We have two contribution: 
+We have two contributions: 
 
-1) we first introduced the concept of "Offset Token" and its decode-encode methods.
+1) we first introduced the "Offset Token" concept and its decode-encode methods. This is a very big contribution, which brings the former method in BFE into the era of the Transformer and Foundation Models.
    
-2) we newly discover a common pattern of predicting offsets. 
+2) We newly discovered a common pattern of predicting offsets. 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
