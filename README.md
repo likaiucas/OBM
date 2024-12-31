@@ -262,7 +262,7 @@ You can also contact me for any building-related problem or collaboration.
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/blob/master/LICENSE.txt
+[license-url]:https://github.com/likaiucas/OBM/blob/main/LICENSE.txt
 [product-screenshot]: images/model2.png
 [ROAM-screenshot]: images/ROAM.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
