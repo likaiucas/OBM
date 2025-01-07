@@ -236,7 +236,7 @@ You can also contact me for any building-related problem or collaboration.
 
 ## Citing
 ```
-@ARTICLE{obm,
+@ARTICLE{li2023obm,
   author={Li, Kai and Deng, Yupeng and Kong, Yunlong and Liu, Diyou and Chen, Jingbo and Meng, Yu and Ma, Junxian and Wang, Chenhao},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Prompt-Driven Building Footprint Extraction in Aerial Images with Offset-Building Model}, 
