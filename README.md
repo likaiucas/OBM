@@ -156,7 +156,7 @@ bash tools/dist_train.sh configs/obm_seg/obm_seg_b.py 6 # train without ROAM
 
 * Inference your dataset:
 ```bash
-python tools/test_offset.py --config configs/obm_seg/obm_seg_b.py
+python tools/test_offset.py --config obm_seg_fintune/smlcdr_obm_pretrain.py
 ```
 
 _``WARNING: OUR TRAINING DOES NOT SUPPORT FINETUNE LIKE LORA, BACKBONE IS INCLUDED, PLEASE SET `samples_per_gpu = 1` !!!``_
