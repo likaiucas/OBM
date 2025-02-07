@@ -116,8 +116,8 @@ Our work is based on the following:
 -  [BONAI]
 -  [SAM]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Our weight of OBM is available at <a href="https://1drv.ms/u/c/4714078bb90d0216/EbVLDOlRwlZHr5h60nC3HuoBk1QrRFc6QqY_oXPCz-_3nA?e=Xbe1Qc" title="OBM_weight">OBM weight</a>.  
-
+Our weight of OBM is available at <a href="https://1drv.ms/u/c/4714078bb90d0216/EbVLDOlRwlZHr5h60nC3HuoBk1QrRFc6QqY_oXPCz-_3nA?e=Xbe1Qc" title="OBM_weight_BONAI">OBM weight BONAI</a>.  
+<a href="https://1drv.ms/u/c/4714078bb90d0216/ETHrZ7LPl-dAn-mKaGrZdnsBk6UmdOwF_sYWmqBFuUQDOw?e=oamaWZ" title="OBM_weight_OmniCity">OBM weight OmniCity</a>. 
 
 
 <!-- GETTING STARTED -->
