@@ -35,7 +35,7 @@
   <h3 align="center">Extract Building Footprint from Aerial Images with Offset-Building Model (OBM)</h3>
 
   <p align="center">
-    Extract building footprint like a human
+    Extract building footprint in off-nadir images like a human
     <br />
     <a href="https://github.com/"><strong>Explore the docs »</strong></a>
     <br />
