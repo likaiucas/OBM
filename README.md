@@ -49,6 +49,8 @@
 </div>
 
 
+# News
+A video explaining OBM is available on [YouTube](https://www.youtube.com/watch?v=77t6XxOda9U). 
 
 <!-- TABLE OF CONTENTS -->
 <details>
