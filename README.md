@@ -1,4 +1,4 @@
-# TGRS preprint paper
+# TGRS paper
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
@@ -20,8 +20,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 <!-- [![Contributors][contributors-shield]][contributors-url] -->
-
-[![MIT License][license-shield]][license-url]
 
 
 
